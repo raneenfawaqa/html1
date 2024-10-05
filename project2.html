@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile Website</title>
+    <meta name="description" content="Raneen Fawaqa Computer Science Apprenticeship Program">
+    <meta name="keywords" content="Raneen Fawaqa">
+    <meta name="author" content="Raneen Fawaqa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px ;
+            text-align: center;
+
+        }
+       
+        nav ul li{
+            display: inline;
+            margin: 0 10px;
+           color: white;
+        }
+        nav ul li a{
+            display: inline;
+            margin: 0 10px;
+            text-decoration: underline gray;
+           color: white;
+        }
+      
+
+        
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: auto;
+        }
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            object-fit: cover; 
+            transform:scale(1) ;
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#future">Future</a></li>
+                <li><a href="#project">Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h1 style="text-shadow: 10px 10px 1px gray ;">Hi, I'm Raneen Fawaqa👋</h1>
+            <img style="box-shadow: 0px 0px 10px 5px skyblue ;" src="C:\Users\Lenovo\OneDrive\Desktop\html\html1\.git\صورة واتساب بتاريخ 1446-04-01 في 19.30.46_f65ee3a7.jpg" alt="Your Picture" class="profile-pic"> 
+            <p style="font-style: italic;">I am 20 years old. I live in Jerusalem and study Computer Science in an apprenticeship program. I have a passion for programming, and I like to spend my free time reading. I enjoy learning new things and developing my skills in my specialty. I consider myself a positive and fun person and I love interacting with others and sharing ideas.</p>
+        </section>
+        
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li><a href="https://ar.wikipedia.org/wiki/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9">Reading</a></li>
+                <li><a href="https://ar.wikipedia.org/wiki/%D8%B7%D8%A8%D8%AE">Cooking</a></li>
+                <li><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B3%D8%A7%D8%AA%D9%8A%D9%86">Gardening</a></li>
+            </ul>
+            <img border="10" width="300" height="300" src="https://www.uopeople.edu/wp-content/uploads/2022/06/blaz-photo-zMRLZh40kms-unsplash-scaled.jpg" alt="Reading">
+            <img border="10" width="300" height="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiPTQcuqUH7lngafDZEehy0Mk15a2R1JfyMw&s" alt="Cooking">
+            <img border="10" width="300" height="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQozcWhUY0HT9scgtNOptQ7Hk9f757NeMvoew&s" alt="Gardening">
+        </section>
+        
+        <section id="guesshobby">
+            <h2>Guess My Favorite Hobby✨</h2>
+            <form>
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="reading" name="hobby" value="Reading" required><br>
+                
+                <label for="cooking">Cooking</label>
+                <input type="checkbox" id="cooking" name="hobby" value="Cooking"><br>
+                
+                <label for="gardening">Gardening</label>
+                <input type="checkbox" id="gardening" name="hobby" value="Gardening"><br>
+                
+                <input type="submit" value="Check">
+            </form>
+        </section>
+        
+        <section id="future">
+            <h2>Future Aspirations</h2>
+            <p style="font-style: italic;">In the future, I aspire to complete my education abroad to further develop my skills in programming. I believe that hard work and continuous learning are the keys to achieving my ambitions, and I hope to make a positive impact in the future.</p>
+        </section>
+        
+        <footer>
+            <p>Check out my <a href="https://github.com/raneenfawaqa/html1.git">GitHub</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>
